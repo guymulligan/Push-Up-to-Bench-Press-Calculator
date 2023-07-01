@@ -1,33 +1,25 @@
 .container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .titles {
-display: flex;
-flex-direction: row;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   animation-name: blacktowhite;
   animation-duration: 0.5s;
   font-size: 36px
 }
 
 .subtitle {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   animation-name: blacktowhite;
   animation-duration: 0.5s;
-  padding-left: 20px;
-  padding-bottom: 6px;
   font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 button {
@@ -40,14 +32,12 @@ input {
 }
 
 .inputNumbers {
-  display: flex;
-  flex-direction: column;
   animation-name: blacktowhite;
   animation-duration: 0.5s;
+  margin-top: 40px;
 }
 
 .Disclaimer {
-  display: flex;
   flex-wrap: wrap;
   position: fixed;
   bottom: 0;
@@ -70,9 +60,9 @@ font-size: 14px;
 }
 
 .oneRM {
+  margin-top: 30px;
 animation-name: blacktowhite;
 animation-duration: 0.5s;
-padding-top: 20px;
 }
 
 .fiveRM {
@@ -84,3 +74,12 @@ animation-duration: 0.8s;
 animation-name: blacktowhite;
 animation-duration: 1.1s;
 }
+
+/* flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  font-size: 10px;
+  color: gray;
+  margin-bottom: -20px;
+  left: 20px;
+  right: 20px; */
