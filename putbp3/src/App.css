@@ -4,9 +4,6 @@
   flex-direction: column;
 }
 
-.titles {
-}
-
 .title {
   animation-name: blacktowhite;
   animation-duration: 0.5s;
@@ -75,12 +72,3 @@ animation-duration: 0.8s;
 animation-name: blacktowhite;
 animation-duration: 1.1s;
 }
-
-/* flex-wrap: wrap;
-  position: fixed;
-  bottom: 0;
-  font-size: 10px;
-  color: gray;
-  margin-bottom: -20px;
-  left: 20px;
-  right: 20px; */
